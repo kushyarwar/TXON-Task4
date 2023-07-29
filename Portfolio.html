@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website | Home</title>
+    <link rel="stylesheet" href="PortfolioCss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <img src="pngwing.com.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <i class="fas fa-bars"></i>
+        </nav>
+
+        <div class="detel">
+            <p>Full Stack Web Developer</p>
+            <h1>This Is Kush <span>Yarwar</span></h1>
+            <p>This is my official Portfolio website to show all
+                <br>Details and work experience.
+            </p>
+            <a href="#"><span>DOWNLOAD CV</span> </a>
+        </div>
+        <div class="images">
+            <img src="B63B79D9-591D-4882-AB37-853170DF69E0 (2).JPEG" class="shape">
+            
+        </div>
+    </div>
+    
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As an Computer Engineer, creativity, good communication skills and adaptive skills. <br>Committed to delivering high-quality results and exceeding expectations while continuously learning and growing in a dynamic work environment.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">EDUCATION</p>
+                        <p class="tab-links" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>  G H Raisoni College Of Enginery, Nagpur 440016</span><br>B.tech, IT</li>
+                            <li><span>	BJM Carmel Academy, Chandrapur <br> Central Board of Secondary Education.	(Score - 73.20%)</span><br>SSC</li>
+                            <li><span>	Maruti Vidhayalaya, Chandrapur <br>	Maharashtra State Board, Pune	(Score - 80%)</span><br>HSC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>C/C++ language</span></li>
+                            <li><span>Web Development</span></li>
+                            <li><span>Core java and Adv java</span></li>
+
+                        </ul></span><br>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - remote</span><br>TXON intern</li>
+                            <li><span>2023 - remote</span><br>Top Intern</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kushyarwar29@gmail.com </p>
+                    <p><i class="fa-solid fa-phone-volume"></i>   8806*******</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+            
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="First name"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+                        <label for="email">E-mail:</label><br>
+                        <input type="text" id="email" name="email" placeholder="Your mail Id"><br>
+                        <label for="text">Feedback:</label><br>
+                        <textarea name="msg" cols="10" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn1">SUBMIT</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-sharp fa-solid fa-copyright"></i> by Kush Yarwar  </p>
+        </div>
+    </div>
+</body>
+
+<script src="PortfolioScript.js"></script>
+
+</html>
